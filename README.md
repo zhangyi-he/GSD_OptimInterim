@@ -1,5 +1,5 @@
 # OptimInterim
-The source code is implemented for determining the optimal timing for interim analyses in group sequential trials, and the preprint has been published in medRxiv, available at .
+The source code is implemented for OptimInterim, which can determine the optimal timing for interim analyses in group sequential trials. The preprint has been published in medRxiv and is available at .
 
 ## Get Optimal Information Rates
 ### Description 
