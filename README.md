@@ -16,10 +16,10 @@ _OptimInterim_
 Return the optimal information rates.
 
 ### Author(s)
-The implementation of _OptimInterim_ was written by Zhangyi He working for Suzie Cro and Laurent Billot at the George Institute for Global Health and the Imperial Clinical Trial Unit, Imperial College London.
+The implementation of _OptimInterim_ was written by Zhangyi He working for Laurent Billot and Suzie Cro at the George Institute for Global Health and the Imperial Clinical Trial Unit, Imperial College London.
 
 ### References
-
+He, Z., Cro, S. & Billot, L. (2024). Optimal timing for interim analyses in group sequential trials. 
 
 ### Examples
-
+See examples from [getOptimalInformationRates_rpact_pluginEg](https://github.com/zhangyi-he/GSD_OptimInterim/blob/main/getOptimalInformationRates_rpact_pluginEg.R).
