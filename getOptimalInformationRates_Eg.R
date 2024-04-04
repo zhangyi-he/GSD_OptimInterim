@@ -24,7 +24,7 @@ typeOfDesign <- "asOF"
 typeBetaSpending <- "bsOF"
 
 # get the optimal information rates in the group sequential design
-system.time(informationRates <- getOptimalInformationRates(
+informationRates <- getOptimalInformationRates(
   groups = groups,
   allocationRatioPlanned = allocationRatioPlanned,
   kMax = kMax,
@@ -32,7 +32,7 @@ system.time(informationRates <- getOptimalInformationRates(
   beta = beta,
   sided = sided,
   typeOfDesign = typeOfDesign,
-  typeBetaSpending = typeBetaSpending))
+  typeBetaSpending = typeBetaSpending)
 
 # get the group sequential design with the optimal information rates
 design <- getDesignGroupSequential(
@@ -77,7 +77,7 @@ typeOfDesign <- "asOF"
 typeBetaSpending <- "bsOF"
 
 # get the optimal information rates in the group sequential design
-system.time(informationRates <- getOptimalInformationRatesRates(
+informationRates <- getOptimalInformationRatesRates(
   groups = groups,
   allocationRatioPlanned = allocationRatioPlanned,
   kMax = kMax,
@@ -85,7 +85,7 @@ system.time(informationRates <- getOptimalInformationRatesRates(
   beta = beta,
   sided = sided,
   typeOfDesign = typeOfDesign,
-  typeBetaSpending = typeBetaSpending))
+  typeBetaSpending = typeBetaSpending)
 
 # get the group sequential design with the optimal information rates
 design <- getDesignGroupSequential(
