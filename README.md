@@ -6,7 +6,33 @@ Return the optimal information rates (minimising the expected sample size under 
 
 ### Usage 
 ```{r}
-x = 5  # radius of a circle
+getOptimalInformationRates(
+    ...,
+    groups = 2L,
+    allocationRatioPlanned = NA_real_,
+    kMax = NA_integer_,
+    alpha = NA_real_,
+    beta = NA_real_,
+    sided = 1L,
+    futilityBounds = NA_real_,
+    typeOfDesign = c("OF", "P", "WT", "PT", "HP", "WToptimum", "asP", "asOF", "asKD", "asHSD", "asUser", "noEarlyEfficacy"),
+    deltaWT = NA_real_,
+    deltaPT1 = NA_real_,
+    deltaPT0 = NA_real_,
+    optimizationCriterion = c("ASNH1", "ASNIFH1", "ASNsum"),
+    gammaA = NA_real_,
+    typeBetaSpending = c("none", "bsP", "bsOF", "bsKD", "bsHSD", "bsUser"),
+    userAlphaSpending = NA_real_,
+    userBetaSpending = NA_real_,
+    gammaB = NA_real_,
+    bindingFutility = NA,
+    betaAdjustment = NA,
+    constantBoundsHP = 3,
+    twoSidedPower = NA,
+    delayedInformation = NA_real_,
+    tolerance = 1e-08,
+    seed = NA_real_
+) 
 ```
 
 ### Arguments 
