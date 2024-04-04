@@ -8,16 +8,16 @@ Return the optimal information rates (minimising the expected sample size under 
 
 
 ### Arguments 
-All arguments can be found in the [_getDesignGroupSequential_](https://rdrr.io/cran/rpact/man/getDesignGroupSequential.html) and [_getSampleSizeMeans_](https://rdrr.io/cran/rpact/man/getSampleSizeMeans.html) (or [_getSampleSizeRates_](https://rdrr.io/cran/rpact/man/getSampleSizeRates.html)) functions from the [_rpact_](https://rdrr.io/cran/rpact) package.
+All arguments can be found in the [getDesignGroupSequential](https://rdrr.io/cran/rpact/man/getDesignGroupSequential.html) and [getSampleSizeMeans](https://rdrr.io/cran/rpact/man/getSampleSizeMeans.html) (or [getSampleSizeRates](https://rdrr.io/cran/rpact/man/getSampleSizeRates.html)) functions from the [rpact](https://rdrr.io/cran/rpact) package.
 
 ### Details 
-The _getOptimalInformationRates_ function
+The getOptimalInformationRates function
 
 ### Value 
 Return the optimal information rates.
 
 ### Author(s)
-The implementation of _OptimInterim_ was written by Zhangyi He working for Laurent Billot and Suzie Cro at the George Institute for Global Health and the Imperial Clinical Trial Unit, Imperial College London.
+The implementation of OptimInterim was written by Zhangyi He working for Laurent Billot and Suzie Cro at the George Institute for Global Health and the Imperial Clinical Trial Unit, Imperial College London.
 
 ### References
 He, Z., Cro, S., & Billot, L. (2024). Optimal timing for interim analyses in group sequential trials. 
