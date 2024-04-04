@@ -4,7 +4,7 @@
 #' rpact plugin (examples)
 
 # call the getOptimalInformationRates function
-source("./getOptimalInformationRates_rpact_pluginR.R")
+source("./getOptimalInformationRates.R")
 
 ################################################################################
 
