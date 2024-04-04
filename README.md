@@ -66,4 +66,4 @@ getOptimalInformationRatesRates(
   typeOfDesign = "asOF",
   typeBetaSpending = "bsOF")
 ```
-See more examples from [OptimInterim_Eg](https://github.com/zhangyi-he/GSD_OptimInterim/blob/main/OptimInterim_Eg.R).
+See more examples from [OptimInterimEg](https://github.com/zhangyi-he/GSD_OptimInterim/blob/main/OptimInterimEg.R).
