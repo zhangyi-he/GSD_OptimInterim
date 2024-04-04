@@ -7,7 +7,7 @@ Return the optimal information rates (minimising the expected sample size under 
 
 
 ### Arguments 
-
+All arguments can be found in the [_getDesignGroupSequential_](https://rdrr.io/cran/rpact/man/getDesignGroupSequential.html) and [_getSampleSizeMeans_](https://rdrr.io/cran/rpact/man/getSampleSizeMeans.html) (or [_getSampleSizeRates_](https://rdrr.io/cran/rpact/man/getSampleSizeRates.html)) functions from the [_rpact_](https://rdrr.io/cran/rpact) package
 
 ### Details 
 _OptimInterim_
