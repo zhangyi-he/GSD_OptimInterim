@@ -62,7 +62,7 @@ plot(designPlan)
 ############################################################
 
 # Calculate optimal information rates in a four-stage group sequential design 
-# ((with an equal allocation and O'Brien & Fleming type alpha- and beta-spending functions) 
+# (with an equal allocation and O'Brien & Fleming type alpha- and beta-spending functions) 
 # testing H0: pi1 - pi2 = 0 for an alternative H1: pi1 - pi2 = 0.2 
 # with assumed pi2 = 0.2; one-sided alpha = 0.025, power 1 - beta = 90%:
 groups <- 2
