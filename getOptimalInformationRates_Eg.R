@@ -1,7 +1,7 @@
 #' @title Optimal timing for interim analyses in group sequential trials
 #' @author Zhangyi He, Suzie Cro, Laurent Billot
 
-#' rpact plugin (examples)
+#' OptimInterim (examples)
 
 # call the getOptimalInformationRates function
 source("./getOptimalInformationRates.R")
