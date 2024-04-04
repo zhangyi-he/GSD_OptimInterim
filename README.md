@@ -5,7 +5,9 @@
 Return the optimal information rates (minimising the expected sample size under the alternative hypothesis) for testing means or rates in one or two samples.
 
 ### Usage 
-
+```{r}
+x = 5  # radius of a circle
+```
 
 ### Arguments 
 All arguments can be found in the [getDesignGroupSequential](https://rdrr.io/cran/rpact/man/getDesignGroupSequential.html) and [getSampleSizeMeans](https://rdrr.io/cran/rpact/man/getSampleSizeMeans.html) (or [getSampleSizeRates](https://rdrr.io/cran/rpact/man/getSampleSizeRates.html)) functions from the [rpact](https://rdrr.io/cran/rpact) package.
