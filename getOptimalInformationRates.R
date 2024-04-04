@@ -163,8 +163,8 @@ getOptimalInformationRates <- function(
   # }
   
   # 
-  interimTiming_min <- 1 / (kMax - 1)
-  interimTiming_max <- 1 - 1 / (kMax - 1)
+  interimTiming_min <- 1 / kMax
+  interimTiming_max <- 1 - 1 / kMax
   interimTiming <- tail(head(seq(0, 1, length.out = kMax + 1), n = -1), n = -1)
   par <- logit(interimTiming)
   res <- optimx(par = par, fn = objectiveFunction, method = c("Nelder-Mead"),
