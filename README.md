@@ -51,4 +51,18 @@ The implementation of OptimInterim was written by Zhangyi He working for Laurent
 He, Z., Cro, S., & Billot, L. (2024). Optimal timing for interim analyses in group sequential trials. 
 
 ### Examples
-See examples from [getOptimalInformationRates_rpact_pluginEg](https://github.com/zhangyi-he/GSD_OptimInterim/blob/main/getOptimalInformationRates_rpact_pluginEg.R).
+```{r}
+# Calculate optimal information rates in a four-stage group sequential design 
+# with an equal allocation and the O'Brien & Fleming type alpha- and beta-spending functions;
+# one-sided alpha = 0.025, power 1 - beta = 90%:
+getOptimalInformationRatesRates(
+  groups = 2,
+  allocationRatioPlanned = 1,
+  kMax = 4,
+  alpha = 0.025,
+  beta = 0.1,
+  sided = 1,
+  typeOfDesign = "asOF",
+  typeBetaSpending = "bsOF")
+```
+See more examples from [getOptimalInformationRates_rpact_pluginEg](https://github.com/zhangyi-he/GSD_OptimInterim/blob/main/getOptimalInformationRates_rpact_pluginEg.R).
