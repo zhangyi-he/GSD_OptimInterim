@@ -4,7 +4,7 @@
 #' OptimInterim (examples)
 
 # call the getOptimalInformationRates function
-source("./getOptimalInformationRates.R")
+source("./OptimInterim.R")
 
 ################################################################################
 
