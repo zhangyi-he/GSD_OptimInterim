@@ -37,10 +37,10 @@ getOptimalInformationRates(
 ```
 
 ### Arguments 
-All arguments can be found in the [getDesignGroupSequential](https://rdrr.io/cran/rpact/man/getDesignGroupSequential.html) and [getSampleSizeMeans](https://rdrr.io/cran/rpact/man/getSampleSizeMeans.html) (or [getSampleSizeRates](https://rdrr.io/cran/rpact/man/getSampleSizeRates.html)) functions from the [rpact](https://rdrr.io/cran/rpact) package.
+All arguments can be found in the [`getDesignGroupSequential`](https://rdrr.io/cran/rpact/man/getDesignGroupSequential.html) and [`getSampleSizeMeans`](https://rdrr.io/cran/rpact/man/getSampleSizeMeans.html) (or [`getSampleSizeRates`](https://rdrr.io/cran/rpact/man/getSampleSizeRates.html)) functions from the [rpact](https://rdrr.io/cran/rpact) package.
 
 ### Details 
-The getOptimalInformationRates function
+The `getOptimalInformationRates` function
 
 ### Value 
 Return the optimal information rates.
