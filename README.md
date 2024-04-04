@@ -14,3 +14,8 @@ _OptimInterim_
 
 ### Value 
 Return the optimal information rates.
+
+### Author(s)
+
+
+### References
