@@ -1,7 +1,7 @@
 #' @title Optimal timing for interim analyses in group sequential trials
 #' @author Zhangyi He, Suzie Cro, Laurent Billot
 
-#' #' OptimInterim (R functions)
+#' OptimInterim (R functions)
 
 ################################################################################
 
