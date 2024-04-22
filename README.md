@@ -55,7 +55,7 @@ He, Z., Cro, S., & Billot, L. (2024). Optimal timing for interim analyses in gro
 # Calculate optimal information rates in a four-stage group sequential design 
 # with an equal allocation and the O'Brien & Fleming type alpha- and beta-spending functions;
 # one-sided significance alpha = 0.025, power 1 - beta = 90%:
-getOptimalInformationRatesRates(
+getOptimalInformationRates(
   groups = 2,
   allocationRatioPlanned = 1,
   kMax = 4,
