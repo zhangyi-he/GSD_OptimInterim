@@ -58,7 +58,6 @@ He, Z., Cro, S., & Billot, L. (2024). Optimal timing for interim analyses in gro
 # with an equal allocation and the O'Brien & Fleming type alpha- and beta-spending functions;
 # one-sided significance alpha = 0.025, power 1 - beta = 90%:
 getOptimalInformationRates(
-  groups = 2,
   allocationRatioPlanned = 1,
   kMax = 4,
   alpha = 0.025,
