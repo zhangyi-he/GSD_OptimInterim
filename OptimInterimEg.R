@@ -1,6 +1,8 @@
-#' OptimInterim (examples)
+#' OptimInterim
 
-# call OptimInterim
+#' Examples
+
+# call the getOptimalInformationRates function
 source("./OptimInterim.R")
 
 ################################################################################
