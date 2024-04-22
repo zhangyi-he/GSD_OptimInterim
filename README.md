@@ -9,7 +9,6 @@ Return the optimal information rates (minimising the expected sample size under 
 ```{r}
 getOptimalInformationRates(
     ...,
-    groups = 2L,
     allocationRatioPlanned = NA_real_,
     kMax = NA_integer_,
     alpha = NA_real_,
@@ -37,7 +36,7 @@ getOptimalInformationRates(
 ```
 
 ### Arguments 
-All arguments can be found in the [`getDesignGroupSequential`](https://rdrr.io/cran/rpact/man/getDesignGroupSequential.html) and [`getSampleSizeMeans`](https://rdrr.io/cran/rpact/man/getSampleSizeMeans.html) (or [`getSampleSizeRates`](https://rdrr.io/cran/rpact/man/getSampleSizeRates.html)) functions from the [rpact](https://rdrr.io/cran/rpact) package.
+All arguments can be found in the [`getDesignGroupSequential`](https://rdrr.io/cran/rpact/man/getDesignGroupSequential.html) and [`getSampleSizeMeans`](https://rdrr.io/cran/rpact/man/getSampleSizeMeans.html) (or [`getSampleSizeRates`](https://rdrr.io/cran/rpact/man/getSampleSizeRates.html) or [`getSampleSizeSurvival`](https://rdrr.io/cran/rpact/man/getSampleSizeSurvival.html)) functions from the [rpact](https://rdrr.io/cran/rpact) package.
 
 ### Details 
 The `getOptimalInformationRates` function
