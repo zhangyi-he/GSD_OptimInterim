@@ -8,14 +8,14 @@ source("./OptimInterim.R")
 # Calculate optimal information rates in a four-stage group sequential design
 # (with an equal allocation and Haybittle-Peto boundaries)
 # testing H0: mu1 - mu2 = 0 for an alternative H1: mu1 - mu2 = 0.2 with assumed standard deviation = 1;
-# one-sided significance alpha = 0.025, power 1 - beta = 90%:
+# two-sided significance alpha = 0.05, power 1 - beta = 90%:
 alternative <- 0.2
 stDev <- 1
 allocationRatioPlanned <- 1
 kMax <- 4
-alpha <- 0.025
+alpha <- 0.05
 beta <- 0.1
-sided <- 1
+sided <- 2
 typeOfDesign <- "HP"
 
 # get the optimal information rates in the group sequential design
@@ -56,13 +56,13 @@ plot(designPlan)
 # Calculate optimal information rates in a three-stage group sequential design
 # (with an equal allocation and O'Brien & Fleming type alpha-spending boundaries)
 # testing H0: pi1 - pi2 = 0 for an alternative H1: pi1 - pi2 = 0.2 with assumed pi2 = 0.2;
-# one-sided significance alpha = 0.025, power 1 - beta = 90%:
+# one-sided significance alpha = 0.025, power 1 - beta = 80%:
 pi1 <- 0.4
 pi2 <- 0.2
 allocationRatioPlanned <- 1
 kMax <- 3
 alpha <- 0.025
-beta <- 0.1
+beta <- 0.2
 sided <- 1
 typeOfDesign <- "asOF"
 
@@ -105,16 +105,16 @@ plot(designPlan)
 # (with an equal allocation and O'Brien & Fleming boundaries)
 # testing median survival 30 vs 20 months in control and treatment group, respectively;
 # accrual time 12 and follow-up time 6;
-# one-sided significance alpha = 0.025, power 1 - beta = 90%:
+# two-sided significance alpha = 0.05, power 1 - beta = 80%:
 lambda1 <- log(2) / 20
 lambda2 <- log(2) / 30
 allocationRatioPlanned <- 1
 accrualTime <- c(0, 12)
 followUpTime <- 6
 kMax <- 4
-alpha <- 0.025
-beta <- 0.1
-sided <- 1
+alpha <- 0.05
+beta <- 0.2
+sided <- 2
 typeOfDesign <- "OF"
 
 # get the optimal information rates in the group sequential design
