@@ -3,7 +3,7 @@ The source code is implemented for OptimInterim, which can determine the optimal
 
 ## Get Optimal Information Rates
 ### Description 
-Return the optimal information rates (minimising the expected sample size under the alternative hypothesis) for testing means or rates in one or two samples.
+Return the optimal information rates (minimising the expected sample size under the alternative hypothesis) for testing means, rates or hazard ratio in two treatment groups.
 
 ### Usage 
 ```{r}
