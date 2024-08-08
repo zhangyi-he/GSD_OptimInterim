@@ -50,7 +50,7 @@ The implementation of OptimInterim was written by Zhangyi He working for Laurent
 ### References
 He, Z., Cro, S., & Billot, L. (2024). Optimal timing for interim analyses in group sequential trials. 
 
-He, Z., Cro, S., & Billot, L. (2024). Optimal timing for interim analyses in group sequential trials with time-to-event outcomes. 
+He, Z., Janani, L., Cro, S., & Billot, L. (2024). Practical considerations and strategies for designing group sequential trials with time-to-event data: a cardiovascular case study. 
 
 ### Examples
 ```{r}
