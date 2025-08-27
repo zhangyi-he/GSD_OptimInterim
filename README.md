@@ -45,12 +45,10 @@ The `getOptimalInformationRates` function
 Return the optimal information rates.
 
 ### Author(s)
-The implementation of OptimInterim was written by Zhangyi He working for Laurent Billot and Suzie Cro at the George Institute for Global Health and the Imperial Clinical Trial Unit, Imperial College London.
+The implementation of OptimInterim was written by Zhangyi He, working with Laurent Billot at the George Institute for Global Health and Suzie Cro at the Imperial Clinical Trial Unit, Imperial College London.
 
 ### References
-He, Z., Cro, S., & Billot, L. (2024). Optimal timing for interim analyses in group sequential trials. 
-
-He, Z., Janani, L., Cro, S., & Billot, L. (2024). Practical considerations and strategies for designing group sequential trials with time-to-event data: a cardiovascular case study. 
+He, Z., Cro, S., & Billot, L. (2025). Optimal scheduling of interim analyses in group sequential trials. 
 
 ### Examples
 ```{r}
